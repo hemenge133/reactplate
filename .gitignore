@@ -1,0 +1,7 @@
+node_modules
+dist/index.html
+dist/app.*.js
+dist/app.*.css
+dist/app.*.map
+.cache
+yarn.lock
