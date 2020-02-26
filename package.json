@@ -24,6 +24,8 @@
     "prettier": "^1.19.1"
   },
   "scripts": {
-    "lint": " tsc --noEmit && eslint 'src/**/*.{js,ts,tsx}' --quiet --fix"
+    "lint": " tsc --noEmit && eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
+    "dev": "parcel src/app/index.html --out-dir build/debug",
+    "build": "parcel build src/app/index.html --out-dir build/release --public-url ./assets"
   }
 }
