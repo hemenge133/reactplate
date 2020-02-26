@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
-export default function App(): unknown {
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+export default function App() {
     const [count, setCount] = useState(0);
 
     return (
